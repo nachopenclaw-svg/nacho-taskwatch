@@ -1,4 +1,4 @@
-# Hermes TaskWatch
+# Hermes TaskWatch by Nacho
 
 **Keep unfinished agent commitments from disappearing between sessions.**
 
@@ -168,7 +168,8 @@ integration workflow, not by a hidden background service.
 
 ## Development
 
-The project and repository are named **Hermes TaskWatch**. The Python distribution
+The project is **Hermes TaskWatch by Nacho**, hosted in the
+**nacho-hermes-taskwatch** repository. The Python distribution
 and command remain `hermes-closeout`, and the module remains `hermes_closeout`,
 so existing integrations keep working. Ledger formats, environment variables,
 and Linear identity markers are unchanged by the branding update.
