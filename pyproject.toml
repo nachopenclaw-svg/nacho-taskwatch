@@ -5,16 +5,16 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "hermes-closeout"
 version = "0.2.1"
-description = "Hermes TaskWatch by Nacho: persistent commitment tracking and recovery gates for Hermes Agent"
+description = "Nacho TaskWatch: persistent commitment tracking and recovery gates for Hermes Agent"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
 dependencies = []
 
 [project.urls]
-Repository = "https://github.com/nachopenclaw-svg/nacho-hermes-taskwatch"
-Documentation = "https://github.com/nachopenclaw-svg/nacho-hermes-taskwatch#readme"
-Issues = "https://github.com/nachopenclaw-svg/nacho-hermes-taskwatch/issues"
+Repository = "https://github.com/nachopenclaw-svg/nacho-taskwatch"
+Documentation = "https://github.com/nachopenclaw-svg/nacho-taskwatch#readme"
+Issues = "https://github.com/nachopenclaw-svg/nacho-taskwatch/issues"
 
 [project.scripts]
 hermes-closeout = "hermes_closeout.__main__:main"

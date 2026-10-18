@@ -1,4 +1,4 @@
-# Hermes TaskWatch by Nacho
+# Nacho TaskWatch
 
 **Keep unfinished agent commitments from disappearing between sessions.**
 
@@ -6,7 +6,7 @@ Agent work can span multiple conversations, tool calls, and restarts. A draft ge
 written, a tool fails, or a task pauses for input. The conversation moves on, while
 the original commitment still has unfinished steps.
 
-Hermes TaskWatch gives those commitments a persistent record outside the current
+Nacho TaskWatch gives those commitments a persistent record outside the current
 chat. It helps track situations such as:
 
 - **Work that looks finished but is not delivered:** a report exists, but still
@@ -168,8 +168,8 @@ integration workflow, not by a hidden background service.
 
 ## Development
 
-The project is **Hermes TaskWatch by Nacho**, hosted in the
-**nacho-hermes-taskwatch** repository. The Python distribution
+The project is **Nacho TaskWatch**, hosted in the
+**nacho-taskwatch** repository. The Python distribution
 and command remain `hermes-closeout`, and the module remains `hermes_closeout`,
 so existing integrations keep working. Ledger formats, environment variables,
 and Linear identity markers are unchanged by the branding update.
